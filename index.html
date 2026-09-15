@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horaire des activités de la semaine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calendar">
+
+    <header class="calendar-header">
+      <h1 class="calendar-title">Horaire des activités de la semaine du 14 Septembre 2026!</h1>
+      <div><img style="width: 90px;" src="img/physum_logo.png" alt="Logo Physum"></div>
+    
+    </header>
+
+    <div class="grid-scroll">
+      <div class="grid">
+
+        <!-- Rangée des jours -->
+        <div class="grid-row">
+          <div class="time-col"></div>
+          <div class="day-header">Lundi</div>
+          <div class="day-header">Mardi</div>
+          <div class="day-header">Mercredi</div>
+          <div class="day-header">Jeudi</div>
+          <div class="day-header">Vendredi</div>
+        </div>
+
+        <!-- Rangée AM -->
+        <div class="grid-row">
+          <div class="time-col"><span class="slot-badge">AM</span></div>
+          <div class="cell" data-day="lundi" data-slot="am"></div>
+          <div class="cell" data-day="mardi" data-slot="am"></div>
+          <div class="cell" data-day="mercredi" data-slot="am"></div>
+          <div class="cell" data-day="jeudi" data-slot="am"></div>
+          <div class="cell" data-day="vendredi" data-slot="am"></div>
+        </div>
+
+        <!-- Rangée Lunch -->
+        <div class="grid-row">
+          <div class="time-col"><span class="slot-badge">Lunch</span></div>
+          <div class="cell" data-day="lundi" data-slot="lunch"></div>
+          <div class="cell" data-day="mardi" data-slot="lunch"></div>
+          <div class="cell" data-day="mercredi" data-slot="lunch"></div>
+          <div class="cell" data-day="jeudi" data-slot="lunch"></div>
+          <div class="cell" data-day="vendredi" data-slot="lunch"></div>
+        </div>
+
+        <!-- Rangée PM -->
+        <div class="grid-row">
+          <div class="time-col"><span class="slot-badge">PM</span></div>
+          <div class="cell" data-day="lundi" data-slot="pm"></div>
+          <div class="cell" data-day="mardi" data-slot="pm"></div>
+          <div class="cell" data-day="mercredi" data-slot="pm"></div>
+          <div class="cell" data-day="jeudi" data-slot="pm"></div>
+          <div class="cell" data-day="vendredi" data-slot="pm"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Petites annonces : contenu statique, à éditer directement ici -->
+    <section class="announcements">
+      <h2>Petites annonces...</h2>
+      <ul class="announcement-list">
+        <li>
+          - <mark>Chalet de la PHYSUM! (19-21 octobre)</mark> Voir courriel de la semaine pour lien d'inscription.
+        </li>
+        <li>
+          - <mark>Assemblée générale (21 septembre)</mark> Viens porter la voix des cycles supérieurs à l'Assemblée!
+        </li>
+        <li>
+          - Préparez-vous pour le premier 6 à 10 qui aura lieu le 29 septembre!
+        </li>
+        <li>
+          - Si vous êtes intérésé.e.s par des soirées de visionnement des parties du Canadien, remplissez le sondage dans le courriel de la semaine!
+        </li>
+        <li>
+          - Nouveau site pour visualiser les conversations de groupe du département (voir le courriel de la semaine)!
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
