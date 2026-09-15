@@ -96,30 +96,35 @@ function populateExampleSchedule() {
     title: 'Tricot & Crochet 🧶',
     location: '@LaPlanck',
     time: '12:30 – 13:30',
+    color: '#fcda92',
   });
 
   addEvent('mercredi', 'lunch', {
     title: 'Club de journal 🔬',
     location: '@MIL',
     time: '12:30 – 13:30',
+    color: '#dededd',
   });
 
   addEvent('vendredi', 'lunch', {
     title: 'Conférence du vendredi 📣',
     location: '@A3521.1',
     time: '11:30 – 13:00',
+    color: '#ffa3a3',
+
   });
 
   addEvent('jeudi', 'lunch', {
     title: 'Franco-midis! 🇫🇷',
     location: '@La Planck',
+    color: '#92c5fc',
     time: '12:30 – 13:30'
   });
 
   addEvent('jeudi', 'pm', {
     title: 'Veillée de la FAECUM 🎉',
     location: '@Pav. Jean-Brillant',
-    time: '11:30 – 13:00',
+    //time: '11:30 – 13:00',
     color: '#ffe15a',
     textColor: '#1d2036'
   });
@@ -127,7 +132,8 @@ function populateExampleSchedule() {
   addEvent('mercredi', 'pm', {
     title: 'Foire des comités 🎪',
     location: '@La Planck',
-    time: '17:30'
+    time: '17:30',
+    color: '#92fca0',
   });
 
 
